@@ -1,7 +1,6 @@
 const express = require("express");
 require("dotenv").config();
 
-const pool = require("./db/client");
 const app = express();
 
 const port = 3000;
